@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="ecc_agent_script_include">
+    <ecc_agent_script_include action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>MID Server script include   </description>
+        <name>For Learning </name>
+        <script><![CDATA[var FileBuilder = Class.create();
+FileBuilder.prototype = {
+initialize : function() {
+ms.log("===>> FileBuilder ==>> ");
+},
+ 
+fileMoveTOTarget : function() {
+	ms.log("Inside fileMoveTOTarget function");
+// var rm = new sn_ws.RESTMessageV2();
+// rm.setHTTPMethod('get');
+// rm.setEndpoint('http://127.0.0.1:5000/ransomware/0');
+// var response = rm.execute();
+// return response;       
+return "Hello from mid server script include";},
+ 
+type : "FileBuilder"
+};]]></script>
+        <sys_class_name>ecc_agent_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-23 12:19:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d08d0fc9db66001007aa64d748961910</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>For Learning </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>ecc_agent_script_include_d08d0fc9db66001007aa64d748961910</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-27 05:35:47</sys_updated_on>
+    </ecc_agent_script_include>
+</record_update>

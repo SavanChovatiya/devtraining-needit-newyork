@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ecc_agent_application">
+    <ecc_agent_application action="DELETE">
+        <default_mid_server display_value="Demo MID Server 2">f9ac8ec5db62001007aa64d7489619f0</default_mid_server>
+        <included_in_app_all>true</included_in_app_all>
+        <name>For Demo</name>
+        <sys_class_name>ecc_agent_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-27 06:21:05</sys_created_on>
+        <sys_id>f242361adb62001007aa64d7489619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>For Demo</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>ecc_agent_application_f242361adb62001007aa64d7489619e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-27 06:21:05</sys_updated_on>
+    </ecc_agent_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>5475400edbcf5b040e785d00cf9619e5</instance_id>
+        <instance_name>dev63470</instance_name>
+        <name>ecc_agent_application_f242361adb62001007aa64d7489619e1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ecc_agent_application"><ecc_agent_application action="INSERT_OR_UPDATE"><default_mid_server display_value="Demo MID Server 2">f9ac8ec5db62001007aa64d7489619f0</default_mid_server><included_in_app_all>true</included_in_app_all><name>For Demo</name><sys_class_name>ecc_agent_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-01-27 06:21:05</sys_created_on><sys_id>f242361adb62001007aa64d7489619e1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>For Demo</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>ecc_agent_application_f242361adb62001007aa64d7489619e1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-01-27 06:21:05</sys_updated_on></ecc_agent_application></record_update>]]></payload>
+        <payload_hash>-1439436703</payload_hash>
+        <record_name>For Demo</record_name>
+        <reverted_from/>
+        <source>f9c3dacddb62001007aa64d7489619c4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-27 06:21:05</sys_created_on>
+        <sys_id>ff527e1adb62001007aa64d748961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16fe5a924c60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-27 06:21:05</sys_updated_on>
+        <type>MID Server Application</type>
+        <update_guid>3b527e1a1c620010a45030125f471154</update_guid>
+        <update_guid_history>3b527e1a1c620010a45030125f471154:-1439436703</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="For Demo">c6a2fa1adb62001007aa64d748961910</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-27 06:22:19</sys_created_on>
+        <sys_db_object display_value="" name="ecc_agent_application">ecc_agent_application</sys_db_object>
+        <sys_id>6584b2180a254fb0ba246a429b120c90</sys_id>
+        <sys_metadata>f242361adb62001007aa64d7489619e1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>For Demo</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>ecc_agent_application_f242361adb62001007aa64d7489619e1</sys_update_name>
+        <sys_update_version display_value="ecc_agent_application_f242361adb62001007aa64d7489619e1">ff527e1adb62001007aa64d748961954</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-27 06:22:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
